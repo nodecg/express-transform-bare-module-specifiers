@@ -49,7 +49,7 @@ import * as noop from '../node_modules/noop3/index.js';
 
 You can see how this would rapidly become very hard to maintain.
 
-This limitation because the ES Modules spec currently does not support so-called ["bare module specifiers"](https://github.com/domenic/import-maps). That is: any module specifier which does not start with a relative or absolute path, such as `/`, `./`, `../`, etc.
+This limitation is present because the ES Modules spec currently does not support so-called ["bare module specifiers"](https://github.com/domenic/import-maps). That is: any module specifier which does not start with a relative or absolute path, such as `/`, `./`, `../`, etc.
 
 This middleware uses [a single babel transform](https://www.npmjs.com/package/babel-plugin-bare-import-rewrite) to convert these "bare module specifiers" in your code to fully-qualified relative paths. This means that you can just write code which references npm packages installed in your `node_modules`, and this middleware will handle translating those package names to fully-qualified paths on-the-fly.
 
