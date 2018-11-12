@@ -55,4 +55,4 @@ This middleware uses [a single babel transform](https://www.npmjs.com/package/ba
 
 ## Acknowledgements
 
-This middleware is based entirely on the implementation found in [`polyserve`](https://github.com/Polymer/tools/tree/master/packages/polyserve). Except, it uses the [`babel-plugin-bare-import-rewrite`](https://www.npmjs.com/package/babel-plugin-bare-import-rewrite) babel plugin instead of [`the one built into polymer-build`](https://github.com/Polymer/tools/blob/14fea56b16218db369bf5fdce2bb707d78c209c8/packages/build/src/babel-plugin-bare-specifiers.ts).
+This middleware is based entirely on the implementation found in [`polyserve`](https://github.com/Polymer/tools/tree/master/packages/polyserve). Except, it uses the [`babel-plugin-bare-import-rewrite`](https://www.npmjs.com/package/babel-plugin-bare-import-rewrite) babel plugin instead of [the one built into polymer-build](https://github.com/Polymer/tools/blob/14fea56b16218db369bf5fdce2bb707d78c209c8/packages/build/src/babel-plugin-bare-specifiers.ts).
