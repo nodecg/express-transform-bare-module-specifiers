@@ -1,6 +1,6 @@
 {
   "name": "express-transform-bare-module-specifiers",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Express middleware to transform bare module specifiers on-the-fly.",
   "main": "dist/index.js",
   "scripts": {
@@ -43,6 +43,7 @@
     "get-port": "^4.0.0",
     "got": "^9.3.2",
     "jest": "^23.6.0",
+    "standard-version": "^4.4.0",
     "trash-cli": "^1.4.0",
     "ts-jest": "^23.10.4",
     "ts-node": "^7.0.1",
