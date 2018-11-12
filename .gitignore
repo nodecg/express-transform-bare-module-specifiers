@@ -1,0 +1,16 @@
+/node_modules
+/bower_components
+
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/copyright/profiles_settings.xml
+/.idea/workspace.xml
+/coverage
+/dist
+.DS_Store
+.idea/shelf/
+
+logs
+data
+
+npm-debug.log
