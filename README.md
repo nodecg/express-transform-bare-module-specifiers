@@ -1,4 +1,4 @@
-#express-transform-bare-module-specifiers [![Build Status](https://travis-ci.com/nodecg/express-transform-bare-module-specifiers.svg?branch=master)](https://travis-ci.com/nodecg/express-transform-bare-module-specifiers)
+# express-transform-bare-module-specifiers [![Build Status](https://travis-ci.com/nodecg/express-transform-bare-module-specifiers.svg?branch=master)](https://travis-ci.com/nodecg/express-transform-bare-module-specifiers)
 
 > Express middleware to transform bare module specifiers on-the-fly.
 
