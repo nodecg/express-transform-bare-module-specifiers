@@ -11,7 +11,7 @@
     "build": "tsc -b tsconfig.json",
     "prerelease": "npm run build",
     "release": "standard-version",
-    "postrelease": "npm publish && git push --follow-tags && npm run docs:publish"
+    "postrelease": "npm publish && git push --follow-tags"
   },
   "repository": {
     "type": "git",
