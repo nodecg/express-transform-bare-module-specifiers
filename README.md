@@ -26,7 +26,7 @@
 	
 	// Using a custom rootDir and modulesUrl:
 	app.use('*', transformMiddleware({
-		rootDir: path.resolve(__dirname, '/bundles/my-bundle/node_modules'),
+		rootDir: path.resolve(__dirname, '/bundles/my-bundle'),
 		modulesUrl: '/bundles/my-bundle/node_modules'
 	}))
 	```
