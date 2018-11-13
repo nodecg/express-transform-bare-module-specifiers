@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Express middleware to transform bare module specifiers on-the-fly.",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "pretest": "npm run static",
     "test": "jest --coverage",
