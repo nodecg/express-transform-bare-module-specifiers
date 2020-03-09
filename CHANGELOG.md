@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/nodecg/express-transform-bare-module-specifiers/compare/v1.0.2...v1.0.3) (2020-03-09)
+
+
+### Bug Fixes
+
+* **package:** mark [@types](https://github.com/types)/lru-cache as a prodDep ([68d0327](https://github.com/nodecg/express-transform-bare-module-specifiers/commit/68d0327))
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/nodecg/express-transform-bare-module-specifiers/compare/v1.0.1...v1.0.2) (2018-11-14)
 
