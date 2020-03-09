@@ -20,27 +20,17 @@
 	"noUnusedParameters": true,
 	"outDir": "./dist",
 	"paths": {
-	  "*": [
-		"./node_modules/*"
-	  ]
+		"*": [
+			"./node_modules/*",
+		]
 	},
 	"pretty": true,
 	"sourceMap": true,
 	"strictNullChecks": true,
-	"skipLibCheck": true,
 	"target": "es2017",
 	"traceResolution": false,
-	"types": [
-	  "node",
-	  "jest"
-	]
   },
   "include": [
 	"./src/**/*.ts"
   ],
-  "exclude": [
-	"node_modules/**",
-	"src/**/*spec.ts"
-  ],
-  "compileOnSave": false
 }
